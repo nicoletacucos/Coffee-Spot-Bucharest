@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Spot Bucharest</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideBar()><a href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26"><path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" /></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <!-- <li><a href="#">Coffee Spot Bucharest</a></li> -->
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">About us</a></li>
+        <li class="hideOnMobile" id="login" style="float: left;"><a href="#">Login</a></li>
+        <li class="hideOnMobile" id="signin"><a href="#">Sign in</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="menu-button" onclick=showBar()><a href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26"><path
+                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" /></svg></a></li>
+      </ul>
+    </nav>
+    <div class="carousel-item">
+      <div class="details">
+        <p>Welcome to <b>Coffee Spot Bucharest</b>, your favorite destination to
+          discover the best cafes in town.</p>
+        <p> Reserve a table now and enjoy the authentic flavors of coffee, then
+          share your experience through honest reviews!</pp>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
